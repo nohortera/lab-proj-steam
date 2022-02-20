@@ -1,0 +1,16 @@
+<div class="card">
+
+  <div class="card-title">
+    <h2>{{ game.title }}</h2>
+    <span>{{ game.price }} UAH</span>
+  </div>
+
+  <p>{{ game.description }}</p>
+
+  <button *ngIf="cardType === 'games'" (click)="addToLibrary(game)">Add to Library</button>
+  <div *ngIf="cardType === 'library'">
+    <button>Download</button>
+    <button>Save</button>
+  </div>
+
+</div>

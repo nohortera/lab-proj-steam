@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #6C69FF;
+  cursor: pointer;
+}
+
+a:active {
+  color: #6C69FF;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  align-items: center;
+}

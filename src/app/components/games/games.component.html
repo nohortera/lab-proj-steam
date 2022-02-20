@@ -1,0 +1,15 @@
+<h2>Games</h2>
+<br>
+
+<app-search-form></app-search-form>
+<br>
+
+<div>
+  <h2>Featured Games</h2>
+  <div class="games">
+    <app-game-card class="card" *ngFor="let game of games" [game]="game" [cardType]="cardType"></app-game-card>
+  </div>
+
+</div>
+
+

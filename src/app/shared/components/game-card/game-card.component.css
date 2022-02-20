@@ -1,0 +1,33 @@
+.card {
+  width: 272px;
+  /*height: 312px;*/
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.card-title {
+  height: 150px;
+  background-color: #BDBCFF;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative;
+}
+
+h2 {
+  padding: 10px;
+  font-weight: normal;;
+}
+
+span {
+  padding: 5px;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+p {
+  padding: 10px;
+}
+

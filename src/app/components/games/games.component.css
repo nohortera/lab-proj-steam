@@ -1,0 +1,11 @@
+.games {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+h2 {
+  margin: 20px 0;
+}
