@@ -1,1 +1,4 @@
-<p>search-form works!</p>
+<!--<label for="search">Search Games</label>-->
+<app-label [id]="id" [text]="text"></app-label>
+<input id="search" #searchBox placeholder="{{ text }}">
+<button (click)="search(searchBox.value); searchBox.value = ''">Search</button>

@@ -1,1 +1,7 @@
-<p>friends works!</p>
+<h2>Friends</h2>
+<app-search-form (searchEvent)="searchFriends($event)" [text]="searchFormPlaceholder"></app-search-form>
+
+
+<div *ngIf="friends">
+  <h2>My Friends</h2>
+</div>

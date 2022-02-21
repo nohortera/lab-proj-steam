@@ -24,11 +24,11 @@ export class GameService {
     return of(this.localStorageService.getGame())
   }
 
-  // getGamesdByTitle(query: string): Game[] {
-  //   const result: Game[] = []
-  //   GAMES.forEach(game => {
-  //     if (game.title.toLowerCase().includes(query.toLowerCase())) result.push(game)
-  //   })
-  //   return result
-  // }
+  searchGames(term: string): Observable<Game[]> {
+    const result: Game[] = []
+    GAMES.forEach(game => {
+      if (game.title.toLowerCase().includes(term.toLowerCase())) result.push(game)
+    })
+    return of(result)
+  }
 }

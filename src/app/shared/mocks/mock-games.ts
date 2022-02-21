@@ -1,58 +1,58 @@
-import {Game} from "../interfaces/game";
+import { Game } from "../interfaces/game";
 
 export const GAMES: Game[] = [
   {
     id: 1,
     title: 'Doom Ethernal',
-    price: 200,
+    price: 1650,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 2,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Halo 4',
+    price: 340,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 3,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Counter Strike: Global Offensive',
+    price: 750,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 4,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Valheim',
+    price: 3200,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 5,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Warcraft',
+    price: 2700,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 6,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Warhammer 40000',
+    price: 1400,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 7,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Magesty',
+    price: 480,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 8,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Dota 2',
+    price: 150,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
   {
     id: 9,
-    title: 'Doom Ethernal',
-    price: 200,
+    title: 'Grand Theft Auto 5',
+    price: 3400,
     description: 'Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.'
   },
 

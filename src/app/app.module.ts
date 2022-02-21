@@ -17,6 +17,10 @@ import { FieldTextLabeledComponent } from './shared/components/field-text-labele
 import { ButtonComponent } from './shared/components/button/button.component';
 import { SearchFormComponent } from './shared/components/search-form/search-form.component';
 import { FilterComponent } from './components/filter/filter.component';
+import { FilterBlockComponent } from './shared/components/filter-block/filter-block.component';
+import { FieldRangeComponent } from './shared/components/field-range/field-range.component';
+import { FieldRangeLabeledComponent } from './shared/components/field-range-labeled/field-range-labeled.component';
+import { FieldCheckboxComponent } from './shared/components/field-checkbox/field-checkbox.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +37,11 @@ import { FilterComponent } from './components/filter/filter.component';
     FieldTextLabeledComponent,
     ButtonComponent,
     SearchFormComponent,
-    FilterComponent
+    FilterComponent,
+    FilterBlockComponent,
+    FieldRangeComponent,
+    FieldRangeLabeledComponent,
+    FieldCheckboxComponent
   ],
   imports: [
     BrowserModule,

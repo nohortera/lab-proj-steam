@@ -1,1 +1,10 @@
-<p>filter works!</p>
+<div>
+  <h3>Filter by price</h3>
+  <input type="range">
+</div>
+<div>
+  <h3>Filter by tag</h3>
+  <app-label></app-label>
+  <app-field-checkbox *ngFor="let filter of filters" [value]="filter" [name]="checkboxGroupName"></app-field-checkbox>
+
+</div>

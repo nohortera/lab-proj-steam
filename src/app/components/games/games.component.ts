@@ -11,6 +11,7 @@ import { GameService } from "../../core/services/game/game.service";
 export class GamesComponent implements OnInit {
 
   games: Game[] = []
+  searchFormPlaceholder: string = 'Search Games'
 
   cardType: 'games' | 'library' = 'games'
 
@@ -25,8 +26,9 @@ export class GamesComponent implements OnInit {
       .subscribe(games => this.games = games)
   }
 
-  // getGamesdByTitle(query: string): Game[] {
-  //   this.gameService.getGamesdByTitle(query)
-  // }
+  searchGames(term: string): void {
+    this.gameService.searchGames(term)
+      .subscribe(games => this.games = games)
+  }
 
 }
