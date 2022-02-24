@@ -1,18 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import {GameService} from "../../core/services/game/game.service";
 
 @Component({
   selector: 'app-filter',
   templateUrl: './filter.component.html',
   styleUrls: ['./filter.component.css']
 })
-export class FilterComponent implements OnInit {
+export class FilterComponent {
 
   filters: string[] = ['Indie', 'Action', 'Adventure']
   checkboxGroupName: string = 'tag'
 
-  constructor() { }
+  constructor(private gameService: GameService) { }
 
-  ngOnInit(): void {
+  updateFilters(event: any): void {
+    this.gameService.updateFilters(event)
   }
 
 }

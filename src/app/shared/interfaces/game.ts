@@ -3,5 +3,6 @@ export interface Game {
   title: string
   price: number
   description: string
+  tag: string
   artUrl?: string
 }

@@ -4,4 +4,11 @@
 
 <div *ngIf="friends">
   <h2>My Friends</h2>
+
+  <div *ngFor="let friend of friends">
+    <div>{{ friend.username }}</div>
+    <button *ngIf="friend.isFriend === false" (click)="addFriend(friend.id)">Add Friend</button>
+<!--    <button *ngIf="friend.isFriend" (click)="removeFriend(friend.id)></button>-->
+  </div>
+
 </div>

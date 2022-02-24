@@ -13,6 +13,8 @@ export class ProfileComponent implements OnInit {
   age: string = 'Age'
   button: string = 'Save'
 
+  submitted = false
+
 
   constructor() { }
 

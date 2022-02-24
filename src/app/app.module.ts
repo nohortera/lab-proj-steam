@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from "@angular/forms";
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { FormsModule } from "@angular/forms";
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { AppRoutingModule } from './app-routing.module';
 import { GamesComponent } from './components/games/games.component';
 import { LibraryComponent } from './components/library/library.component';
 import { FriendsComponent } from './components/friends/friends.component';
@@ -21,6 +21,7 @@ import { FilterBlockComponent } from './shared/components/filter-block/filter-bl
 import { FieldRangeComponent } from './shared/components/field-range/field-range.component';
 import { FieldRangeLabeledComponent } from './shared/components/field-range-labeled/field-range-labeled.component';
 import { FieldCheckboxComponent } from './shared/components/field-checkbox/field-checkbox.component';
+
 
 @NgModule({
   declarations: [

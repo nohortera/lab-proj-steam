@@ -3,14 +3,15 @@
   /*height: 312px;*/
   border: 1px solid #ccc;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .card-title {
   height: 150px;
   background-color: #BDBCFF;
   color: white;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  /*border-top-left-radius: 15px;*/
+  /*border-top-right-radius: 15px;*/
   position: relative;
 }
 

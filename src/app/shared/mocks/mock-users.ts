@@ -1,0 +1,303 @@
+import { IUser } from "../interfaces/IUser";
+
+export const USERS = [{
+  "id": 1,
+  "username": "gblamires0"
+}, {
+  "id": 2,
+  "username": "abooker1"
+}, {
+  "id": 3,
+  "username": "bbrumbye2"
+}, {
+  "id": 4,
+  "username": "atims3"
+}, {
+  "id": 5,
+  "username": "dmayman4"
+}, {
+  "id": 6,
+  "username": "leble5"
+}, {
+  "id": 7,
+  "username": "atupper6"
+}, {
+  "id": 8,
+  "username": "imozzetti7"
+}, {
+  "id": 9,
+  "username": "fstellman8"
+}, {
+  "id": 10,
+  "username": "spfeifer9"
+}, {
+  "id": 11,
+  "username": "gtottlea"
+}, {
+  "id": 12,
+  "username": "stodb"
+}, {
+  "id": 13,
+  "username": "dgettinsc"
+}, {
+  "id": 14,
+  "username": "bcolemand"
+}, {
+  "id": 15,
+  "username": "mdrane"
+}, {
+  "id": 16,
+  "username": "phaskeyf"
+}, {
+  "id": 17,
+  "username": "mherriesg"
+}, {
+  "id": 18,
+  "username": "scarnalanh"
+}, {
+  "id": 19,
+  "username": "cmcgalli"
+}, {
+  "id": 20,
+  "username": "uachromovj"
+}, {
+  "id": 21,
+  "username": "abowfink"
+}, {
+  "id": 22,
+  "username": "plaul"
+}, {
+  "id": 23,
+  "username": "afeverm"
+}, {
+  "id": 24,
+  "username": "nkellehern"
+}, {
+  "id": 25,
+  "username": "jboakeo"
+}, {
+  "id": 26,
+  "username": "bkondratowiczp"
+}, {
+  "id": 27,
+  "username": "nnetherwoodq"
+}, {
+  "id": 28,
+  "username": "ctaplinr"
+}, {
+  "id": 29,
+  "username": "sgollins"
+}, {
+  "id": 30,
+  "username": "bluciust"
+}, {
+  "id": 31,
+  "username": "ggladdinu"
+}, {
+  "id": 32,
+  "username": "gsooperv"
+}, {
+  "id": 33,
+  "username": "tslefordw"
+}, {
+  "id": 34,
+  "username": "ebrakespearx"
+}, {
+  "id": 35,
+  "username": "arentzy"
+}, {
+  "id": 36,
+  "username": "tpearnez"
+}, {
+  "id": 37,
+  "username": "ccornner10"
+}, {
+  "id": 38,
+  "username": "csumshon11"
+}, {
+  "id": 39,
+  "username": "gdenormanville12"
+}, {
+  "id": 40,
+  "username": "zerskin13"
+}, {
+  "id": 41,
+  "username": "dthomkins14"
+}, {
+  "id": 42,
+  "username": "doneary15"
+}, {
+  "id": 43,
+  "username": "ltatham16"
+}, {
+  "id": 44,
+  "username": "jkeat17"
+}, {
+  "id": 45,
+  "username": "dsmalridge18"
+}, {
+  "id": 46,
+  "username": "skeave19"
+}, {
+  "id": 47,
+  "username": "ebenjamin1a"
+}, {
+  "id": 48,
+  "username": "kduffyn1b"
+}, {
+  "id": 49,
+  "username": "pormesher1c"
+}, {
+  "id": 50,
+  "username": "dprestney1d"
+}, {
+  "id": 51,
+  "username": "nfayers1e"
+}, {
+  "id": 52,
+  "username": "rrewcastle1f"
+}, {
+  "id": 53,
+  "username": "gcrumbie1g"
+}, {
+  "id": 54,
+  "username": "eabramovici1h"
+}, {
+  "id": 55,
+  "username": "fitzhaiek1i"
+}, {
+  "id": 56,
+  "username": "ghargess1j"
+}, {
+  "id": 57,
+  "username": "ckeddie1k"
+}, {
+  "id": 58,
+  "username": "cstroulger1l"
+}, {
+  "id": 59,
+  "username": "ajorin1m"
+}, {
+  "id": 60,
+  "username": "astainsby1n"
+}, {
+  "id": 61,
+  "username": "nbrann1o"
+}, {
+  "id": 62,
+  "username": "hfarquharson1p"
+}, {
+  "id": 63,
+  "username": "emarquis1q"
+}, {
+  "id": 64,
+  "username": "jdavsley1r"
+}, {
+  "id": 65,
+  "username": "hgleed1s"
+}, {
+  "id": 66,
+  "username": "dram1t"
+}, {
+  "id": 67,
+  "username": "obraferton1u"
+}, {
+  "id": 68,
+  "username": "rcoke1v"
+}, {
+  "id": 69,
+  "username": "mgrummitt1w"
+}, {
+  "id": 70,
+  "username": "ccompson1x"
+}, {
+  "id": 71,
+  "username": "tsever1y"
+}, {
+  "id": 72,
+  "username": "aizchaki1z"
+}, {
+  "id": 73,
+  "username": "mwhewell20"
+}, {
+  "id": 74,
+  "username": "pcarletti21"
+}, {
+  "id": 75,
+  "username": "sbagg22"
+}, {
+  "id": 76,
+  "username": "gpollak23"
+}, {
+  "id": 77,
+  "username": "lgibbetts24"
+}, {
+  "id": 78,
+  "username": "holuney25"
+}, {
+  "id": 79,
+  "username": "nayers26"
+}, {
+  "id": 80,
+  "username": "mcranstone27"
+}, {
+  "id": 81,
+  "username": "tallflatt28"
+}, {
+  "id": 82,
+  "username": "gkinforth29"
+}, {
+  "id": 83,
+  "username": "wkennerley2a"
+}, {
+  "id": 84,
+  "username": "ikillock2b"
+}, {
+  "id": 85,
+  "username": "nlatter2c"
+}, {
+  "id": 86,
+  "username": "nwendover2d"
+}, {
+  "id": 87,
+  "username": "mludvigsen2e"
+}, {
+  "id": 88,
+  "username": "mbuffey2f"
+}, {
+  "id": 89,
+  "username": "churle2g"
+}, {
+  "id": 90,
+  "username": "dwarwick2h"
+}, {
+  "id": 91,
+  "username": "rucceli2i"
+}, {
+  "id": 92,
+  "username": "tcafferty2j"
+}, {
+  "id": 93,
+  "username": "elortz2k"
+}, {
+  "id": 94,
+  "username": "gbrosenius2l"
+}, {
+  "id": 95,
+  "username": "afridd2m"
+}, {
+  "id": 96,
+  "username": "kbahl2n"
+}, {
+  "id": 97,
+  "username": "mcragell2o"
+}, {
+  "id": 98,
+  "username": "raleswell2p"
+}, {
+  "id": 99,
+  "username": "cburchett2q"
+}, {
+  "id": 100,
+  "username": "lcarlozzi2r"
+}]
